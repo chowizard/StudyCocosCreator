@@ -15,9 +15,7 @@
     "subContext": ""
   },
   "encryptJs": true,
-  "excludeScenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
+  "excludeScenes": [],
   "fb-instant-games": {},
   "includeSDKBox": false,
   "inlineSpriteFrames": true,
@@ -37,8 +35,8 @@
     "orientation": "portrait",
     "zip": false
   },
-  "startScene": "e490247a-3363-486f-b3c0-db9e0067826e",
-  "title": "hello_world",
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "title": "FirstCocosJS",
   "webOrientation": "landscape",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "",
