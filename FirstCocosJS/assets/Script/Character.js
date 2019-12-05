@@ -54,13 +54,22 @@ cc.Class(
     // Unity GameObject.Awake()
     onLoad : function()
     {
+        console.log("Character.onLoad()");
 
+        this.node.on(
+            'Say-Hello',
+             function(message)
+             {
+                 console.log(message)
+             });
     },
 
     // Unity GameObject.Start()
     start : function()
     {
         console.log("Character.start()");
+
+        this.node.emit('Say-Hello', 'Hello, this is Cocos Creator');
     },
 
     // Unity GameObject.Update()

@@ -1,0 +1,996 @@
+{
+  "meta": {
+    "version": "0.6.0"
+  },
+  "savePath": "F:\\Work\\Study\\CocosCreator\\FirstCocosJS\\assets\\Texture",
+  "images": [
+    {
+      "name": "000.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/000.png",
+      "folder": ""
+    },
+    {
+      "name": "001.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/001.png",
+      "folder": ""
+    },
+    {
+      "name": "002.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/002.png",
+      "folder": ""
+    },
+    {
+      "name": "003.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/003.png",
+      "folder": ""
+    },
+    {
+      "name": "004.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/004.png",
+      "folder": ""
+    },
+    {
+      "name": "005.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/005.png",
+      "folder": ""
+    },
+    {
+      "name": "006.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/006.png",
+      "folder": ""
+    },
+    {
+      "name": "007.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/007.png",
+      "folder": ""
+    },
+    {
+      "name": "008.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/008.png",
+      "folder": ""
+    },
+    {
+      "name": "009.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/009.png",
+      "folder": ""
+    },
+    {
+      "name": "010.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/010.png",
+      "folder": ""
+    },
+    {
+      "name": "011.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/011.png",
+      "folder": ""
+    },
+    {
+      "name": "012.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/012.png",
+      "folder": ""
+    },
+    {
+      "name": "013.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/013.png",
+      "folder": ""
+    },
+    {
+      "name": "014.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/014.png",
+      "folder": ""
+    },
+    {
+      "name": "015.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/015.png",
+      "folder": ""
+    },
+    {
+      "name": "016.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/016.png",
+      "folder": ""
+    },
+    {
+      "name": "017.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/017.png",
+      "folder": ""
+    },
+    {
+      "name": "018.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/018.png",
+      "folder": ""
+    },
+    {
+      "name": "019.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/019.png",
+      "folder": ""
+    },
+    {
+      "name": "020.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/020.png",
+      "folder": ""
+    },
+    {
+      "name": "021.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/021.png",
+      "folder": ""
+    },
+    {
+      "name": "022.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/022.png",
+      "folder": ""
+    },
+    {
+      "name": "023.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/023.png",
+      "folder": ""
+    },
+    {
+      "name": "024.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/024.png",
+      "folder": ""
+    },
+    {
+      "name": "025.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/025.png",
+      "folder": ""
+    },
+    {
+      "name": "026.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/026.png",
+      "folder": ""
+    },
+    {
+      "name": "027.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/027.png",
+      "folder": ""
+    },
+    {
+      "name": "028.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/028.png",
+      "folder": ""
+    },
+    {
+      "name": "029.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/029.png",
+      "folder": ""
+    },
+    {
+      "name": "030.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/030.png",
+      "folder": ""
+    },
+    {
+      "name": "031.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/031.png",
+      "folder": ""
+    },
+    {
+      "name": "032.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/032.png",
+      "folder": ""
+    },
+    {
+      "name": "033.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/033.png",
+      "folder": ""
+    },
+    {
+      "name": "034.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/034.png",
+      "folder": ""
+    },
+    {
+      "name": "035.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/035.png",
+      "folder": ""
+    },
+    {
+      "name": "036.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/036.png",
+      "folder": ""
+    },
+    {
+      "name": "037.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/037.png",
+      "folder": ""
+    },
+    {
+      "name": "038.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/038.png",
+      "folder": ""
+    },
+    {
+      "name": "039.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/039.png",
+      "folder": ""
+    },
+    {
+      "name": "040.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/040.png",
+      "folder": ""
+    },
+    {
+      "name": "041.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/041.png",
+      "folder": ""
+    },
+    {
+      "name": "042.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/042.png",
+      "folder": ""
+    },
+    {
+      "name": "043.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/043.png",
+      "folder": ""
+    },
+    {
+      "name": "044.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/044.png",
+      "folder": ""
+    },
+    {
+      "name": "045.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/045.png",
+      "folder": ""
+    },
+    {
+      "name": "046.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/046.png",
+      "folder": ""
+    },
+    {
+      "name": "047.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/047.png",
+      "folder": ""
+    },
+    {
+      "name": "048.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/048.png",
+      "folder": ""
+    },
+    {
+      "name": "049.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/049.png",
+      "folder": ""
+    },
+    {
+      "name": "050.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/050.png",
+      "folder": ""
+    },
+    {
+      "name": "051.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/051.png",
+      "folder": ""
+    },
+    {
+      "name": "052.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/052.png",
+      "folder": ""
+    },
+    {
+      "name": "053.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/053.png",
+      "folder": ""
+    },
+    {
+      "name": "054.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/054.png",
+      "folder": ""
+    },
+    {
+      "name": "055.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/055.png",
+      "folder": ""
+    },
+    {
+      "name": "056.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/056.png",
+      "folder": ""
+    },
+    {
+      "name": "057.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/057.png",
+      "folder": ""
+    },
+    {
+      "name": "058.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/058.png",
+      "folder": ""
+    },
+    {
+      "name": "059.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/059.png",
+      "folder": ""
+    },
+    {
+      "name": "060.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/060.png",
+      "folder": ""
+    },
+    {
+      "name": "061.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/061.png",
+      "folder": ""
+    },
+    {
+      "name": "062.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/062.png",
+      "folder": ""
+    },
+    {
+      "name": "063.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/063.png",
+      "folder": ""
+    },
+    {
+      "name": "064.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/064.png",
+      "folder": ""
+    },
+    {
+      "name": "065.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/065.png",
+      "folder": ""
+    },
+    {
+      "name": "066.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/066.png",
+      "folder": ""
+    },
+    {
+      "name": "067.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/067.png",
+      "folder": ""
+    },
+    {
+      "name": "068.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/068.png",
+      "folder": ""
+    },
+    {
+      "name": "069.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/069.png",
+      "folder": ""
+    },
+    {
+      "name": "070.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/070.png",
+      "folder": ""
+    },
+    {
+      "name": "071.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/071.png",
+      "folder": ""
+    },
+    {
+      "name": "072.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/072.png",
+      "folder": ""
+    },
+    {
+      "name": "073.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/073.png",
+      "folder": ""
+    },
+    {
+      "name": "074.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/074.png",
+      "folder": ""
+    },
+    {
+      "name": "075.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/075.png",
+      "folder": ""
+    },
+    {
+      "name": "076.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/076.png",
+      "folder": ""
+    },
+    {
+      "name": "077.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/077.png",
+      "folder": ""
+    },
+    {
+      "name": "078.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/078.png",
+      "folder": ""
+    },
+    {
+      "name": "079.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/079.png",
+      "folder": ""
+    },
+    {
+      "name": "080.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/080.png",
+      "folder": ""
+    },
+    {
+      "name": "081.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/081.png",
+      "folder": ""
+    },
+    {
+      "name": "082.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/082.png",
+      "folder": ""
+    },
+    {
+      "name": "083.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/083.png",
+      "folder": ""
+    },
+    {
+      "name": "084.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/084.png",
+      "folder": ""
+    },
+    {
+      "name": "085.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/085.png",
+      "folder": ""
+    },
+    {
+      "name": "086.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/086.png",
+      "folder": ""
+    },
+    {
+      "name": "087.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/087.png",
+      "folder": ""
+    },
+    {
+      "name": "088.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/088.png",
+      "folder": ""
+    },
+    {
+      "name": "089.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/089.png",
+      "folder": ""
+    },
+    {
+      "name": "090.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/090.png",
+      "folder": ""
+    },
+    {
+      "name": "091.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/091.png",
+      "folder": ""
+    },
+    {
+      "name": "092.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/092.png",
+      "folder": ""
+    },
+    {
+      "name": "093.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/093.png",
+      "folder": ""
+    },
+    {
+      "name": "094.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/094.png",
+      "folder": ""
+    },
+    {
+      "name": "095.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/095.png",
+      "folder": ""
+    },
+    {
+      "name": "096.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/096.png",
+      "folder": ""
+    },
+    {
+      "name": "097.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/097.png",
+      "folder": ""
+    },
+    {
+      "name": "098.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/098.png",
+      "folder": ""
+    },
+    {
+      "name": "099.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/099.png",
+      "folder": ""
+    },
+    {
+      "name": "100.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/100.png",
+      "folder": ""
+    },
+    {
+      "name": "101.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/101.png",
+      "folder": ""
+    },
+    {
+      "name": "102.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/102.png",
+      "folder": ""
+    },
+    {
+      "name": "103.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/103.png",
+      "folder": ""
+    },
+    {
+      "name": "104.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/104.png",
+      "folder": ""
+    },
+    {
+      "name": "105.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/105.png",
+      "folder": ""
+    },
+    {
+      "name": "106.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/106.png",
+      "folder": ""
+    },
+    {
+      "name": "107.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/107.png",
+      "folder": ""
+    },
+    {
+      "name": "108.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/108.png",
+      "folder": ""
+    },
+    {
+      "name": "109.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/109.png",
+      "folder": ""
+    },
+    {
+      "name": "110.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/110.png",
+      "folder": ""
+    },
+    {
+      "name": "111.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/111.png",
+      "folder": ""
+    },
+    {
+      "name": "112.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/112.png",
+      "folder": ""
+    },
+    {
+      "name": "113.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/113.png",
+      "folder": ""
+    },
+    {
+      "name": "114.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/114.png",
+      "folder": ""
+    },
+    {
+      "name": "115.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/115.png",
+      "folder": ""
+    },
+    {
+      "name": "116.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/116.png",
+      "folder": ""
+    },
+    {
+      "name": "117.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/117.png",
+      "folder": ""
+    },
+    {
+      "name": "118.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/118.png",
+      "folder": ""
+    },
+    {
+      "name": "119.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/119.png",
+      "folder": ""
+    },
+    {
+      "name": "120.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/120.png",
+      "folder": ""
+    },
+    {
+      "name": "121.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/121.png",
+      "folder": ""
+    },
+    {
+      "name": "122.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/122.png",
+      "folder": ""
+    },
+    {
+      "name": "123.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/123.png",
+      "folder": ""
+    },
+    {
+      "name": "124.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/124.png",
+      "folder": ""
+    },
+    {
+      "name": "125.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/125.png",
+      "folder": ""
+    },
+    {
+      "name": "126.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/126.png",
+      "folder": ""
+    },
+    {
+      "name": "127.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/127.png",
+      "folder": ""
+    },
+    {
+      "name": "128.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/128.png",
+      "folder": ""
+    },
+    {
+      "name": "129.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/129.png",
+      "folder": ""
+    },
+    {
+      "name": "130.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/130.png",
+      "folder": ""
+    },
+    {
+      "name": "131.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/131.png",
+      "folder": ""
+    },
+    {
+      "name": "132.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/132.png",
+      "folder": ""
+    },
+    {
+      "name": "133.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/133.png",
+      "folder": ""
+    },
+    {
+      "name": "134.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/134.png",
+      "folder": ""
+    },
+    {
+      "name": "135.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/135.png",
+      "folder": ""
+    },
+    {
+      "name": "136.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/136.png",
+      "folder": ""
+    },
+    {
+      "name": "137.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/137.png",
+      "folder": ""
+    },
+    {
+      "name": "138.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/138.png",
+      "folder": ""
+    },
+    {
+      "name": "139.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/139.png",
+      "folder": ""
+    },
+    {
+      "name": "140.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/140.png",
+      "folder": ""
+    },
+    {
+      "name": "141.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/141.png",
+      "folder": ""
+    },
+    {
+      "name": "142.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/142.png",
+      "folder": ""
+    },
+    {
+      "name": "143.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/143.png",
+      "folder": ""
+    },
+    {
+      "name": "144.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/144.png",
+      "folder": ""
+    },
+    {
+      "name": "145.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/145.png",
+      "folder": ""
+    },
+    {
+      "name": "146.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/146.png",
+      "folder": ""
+    },
+    {
+      "name": "147.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/147.png",
+      "folder": ""
+    },
+    {
+      "name": "148.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/148.png",
+      "folder": ""
+    },
+    {
+      "name": "149.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/149.png",
+      "folder": ""
+    },
+    {
+      "name": "150.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/150.png",
+      "folder": ""
+    },
+    {
+      "name": "151.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/151.png",
+      "folder": ""
+    },
+    {
+      "name": "152.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/152.png",
+      "folder": ""
+    },
+    {
+      "name": "153.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/153.png",
+      "folder": ""
+    },
+    {
+      "name": "154.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/154.png",
+      "folder": ""
+    },
+    {
+      "name": "155.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/155.png",
+      "folder": ""
+    },
+    {
+      "name": "156.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/156.png",
+      "folder": ""
+    },
+    {
+      "name": "157.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/157.png",
+      "folder": ""
+    },
+    {
+      "name": "158.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/158.png",
+      "folder": ""
+    },
+    {
+      "name": "159.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/159.png",
+      "folder": ""
+    },
+    {
+      "name": "160.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/160.png",
+      "folder": ""
+    },
+    {
+      "name": "161.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/161.png",
+      "folder": ""
+    },
+    {
+      "name": "162.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/162.png",
+      "folder": ""
+    },
+    {
+      "name": "163.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/163.png",
+      "folder": ""
+    },
+    {
+      "name": "164.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/164.png",
+      "folder": ""
+    },
+    {
+      "name": "165.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/165.png",
+      "folder": ""
+    },
+    {
+      "name": "166.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/166.png",
+      "folder": ""
+    },
+    {
+      "name": "167.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/167.png",
+      "folder": ""
+    },
+    {
+      "name": "168.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/168.png",
+      "folder": ""
+    },
+    {
+      "name": "169.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/169.png",
+      "folder": ""
+    },
+    {
+      "name": "170.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/170.png",
+      "folder": ""
+    },
+    {
+      "name": "171.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/171.png",
+      "folder": ""
+    },
+    {
+      "name": "172.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/172.png",
+      "folder": ""
+    },
+    {
+      "name": "173.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/173.png",
+      "folder": ""
+    },
+    {
+      "name": "174.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/174.png",
+      "folder": ""
+    },
+    {
+      "name": "175.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/175.png",
+      "folder": ""
+    },
+    {
+      "name": "176.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/176.png",
+      "folder": ""
+    },
+    {
+      "name": "177.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/177.png",
+      "folder": ""
+    },
+    {
+      "name": "178.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/178.png",
+      "folder": ""
+    },
+    {
+      "name": "179.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/179.png",
+      "folder": ""
+    },
+    {
+      "name": "180.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/180.png",
+      "folder": ""
+    },
+    {
+      "name": "181.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/181.png",
+      "folder": ""
+    },
+    {
+      "name": "182.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/182.png",
+      "folder": ""
+    },
+    {
+      "name": "183.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/183.png",
+      "folder": ""
+    },
+    {
+      "name": "184.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/184.png",
+      "folder": ""
+    },
+    {
+      "name": "185.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/185.png",
+      "folder": ""
+    },
+    {
+      "name": "186.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/186.png",
+      "folder": ""
+    },
+    {
+      "name": "187.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/187.png",
+      "folder": ""
+    },
+    {
+      "name": "188.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/188.png",
+      "folder": ""
+    },
+    {
+      "name": "189.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/189.png",
+      "folder": ""
+    },
+    {
+      "name": "190.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/190.png",
+      "folder": ""
+    },
+    {
+      "name": "191.png",
+      "path": "F:/Work/Study/CocosCreator/FirstCocosJS/assets/Texture/SpriteAnimationTest01/191.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "texture",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "JSON (hash)",
+    "fileName": "pack-result",
+    "savePath": "F:\\Work\\Study\\CocosCreator\\FirstCocosJS\\assets\\Texture",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsBin",
+    "packerMethod": "BestShortSideFit"
+  }
+}
