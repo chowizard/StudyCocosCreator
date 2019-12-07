@@ -60,7 +60,11 @@
     "_children": [],
     "_active": true,
     "_level": 1,
-    "_components": [],
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
     "_prefab": null,
     "_opacity": 255,
     "_color": {
@@ -103,5 +107,17 @@
     "_is3DNode": false,
     "groupIndex": 0,
     "_id": "a8KzUzY6xAjIM72FmXzktq"
+  },
+  {
+    "__type__": "1dad6yWs3JCO4kA7P4VVR2F",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "label": null,
+    "text": "hello",
+    "_id": "01/N0SN2BGuog3/Xsp3Q8V"
   }
 ]

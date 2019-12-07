@@ -39,7 +39,7 @@
   },
   "startScene": "e490247a-3363-486f-b3c0-db9e0067826e",
   "title": "FirstCocosJS",
-  "webOrientation": "landscape",
+  "webOrientation": "portrait",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "",
     "appid": "wx6ac3f5090a6b99c5",
