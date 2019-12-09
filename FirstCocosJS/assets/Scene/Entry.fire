@@ -69,7 +69,11 @@
     },
     "_children": [],
     "_active": true,
-    "_components": [],
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
     "_prefab": null,
     "_opacity": 255,
     "_color": {
@@ -117,5 +121,15 @@
     "_groupIndex": 0,
     "groupIndex": 0,
     "_id": "a8KzUzY6xAjIM72FmXzktq"
+  },
+  {
+    "__type__": "37a3cj14LpAroLVXHNTCG/G",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_id": "d0rfq/FQJFuY4c/VzvQW9N"
   }
 ]
