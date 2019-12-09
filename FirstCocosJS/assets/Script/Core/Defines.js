@@ -5,4 +5,6 @@ export const eSceneType = cc.Enum(
     Loading : 2,
     Lobby : 3,
     GamePlay : 4
-});
+})
+
+//module.exports = eSceneType;

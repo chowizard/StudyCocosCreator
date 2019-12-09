@@ -8,6 +8,14 @@ cc.Class(
 
     properties :
     {
+        /**
+         * 장면 객체의 타입(override)
+         * @param {Defines} sceneType 장면 타입
+         */
+        sceneType : 
+        {
+            default : Defines.eSceneType.Lobby
+        }
     },
 
 
