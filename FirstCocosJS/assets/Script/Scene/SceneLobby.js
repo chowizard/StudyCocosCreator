@@ -14,7 +14,8 @@ cc.Class(
          */
         sceneType : 
         {
-            default : Defines.eSceneType.Lobby
+            default : Defines.eSceneType.Lobby,
+            override : true
         }
     },
 

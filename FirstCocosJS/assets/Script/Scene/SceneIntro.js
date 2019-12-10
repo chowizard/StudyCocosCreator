@@ -14,7 +14,8 @@ cc.Class(
          */
         sceneType : 
         {
-            default : Defines.eSceneType.Intro
+            default : Defines.eSceneType.Intro,
+            override : true
         }
     },
 

@@ -14,7 +14,8 @@ cc.Class(
          */
         sceneType : 
         {
-            default : Defines.eSceneType.GamePlay
+            default : Defines.eSceneType.GamePlay, 
+            override : true
         }
     },
 
