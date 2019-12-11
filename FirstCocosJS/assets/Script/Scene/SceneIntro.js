@@ -16,6 +16,12 @@ cc.Class(
         {
             default : Defines.eSceneType.Intro,
             override : true
+        },
+
+        testSprite : 
+        {
+            default : null,
+            type : cc.Sprite
         }
     },
 
@@ -37,6 +43,12 @@ cc.Class(
     start : function()
     {
         console.log("SceneIntro.start()");
+
+        let testSprite = this.testSprite;
+        cc.loader.loadRes("images/pulsar", cc.SpriteFrame, (error, resource) => 
+        {
+            testSprite.spriteFrame = resource;
+        });
     },
 
     /**
