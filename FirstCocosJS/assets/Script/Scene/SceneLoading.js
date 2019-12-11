@@ -28,7 +28,7 @@ cc.Class(
      */
     onLoad : function()
     {
-
+        console.log("SceneLoading.onLoad()");
     },
 
     /** 
@@ -36,6 +36,7 @@ cc.Class(
      */
     start : function()
     {
+        console.log("SceneLoading.start()");
     },
 
     /**
@@ -58,5 +59,6 @@ cc.Class(
      */
     onDestroy : function()
     {
+        console.log("SceneLoading.onDestroy()");
     }
 });

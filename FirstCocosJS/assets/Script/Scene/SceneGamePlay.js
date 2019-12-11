@@ -28,7 +28,7 @@ cc.Class(
      */
     onLoad : function()
     {
-
+        console.log("SceneGamePlay.onLoad()");
     },
 
     /** 
@@ -36,6 +36,7 @@ cc.Class(
      */
     start : function()
     {
+        console.log("SceneGamePlay.start()");
     },
 
     /**
@@ -58,5 +59,6 @@ cc.Class(
      */
     onDestroy : function()
     {
+        console.log("SceneGamePlay.onDestroy()");
     }
 });
