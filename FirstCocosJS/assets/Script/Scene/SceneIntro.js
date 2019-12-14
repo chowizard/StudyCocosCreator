@@ -17,12 +17,6 @@ cc.Class(
             default : Defines.eSceneType.Intro,
             override : true
         },
-
-        testSprite : 
-        {
-            default : null,
-            type : cc.Sprite
-        }
     },
 
 
