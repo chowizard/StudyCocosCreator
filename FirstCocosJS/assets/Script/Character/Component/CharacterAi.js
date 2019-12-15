@@ -1,3 +1,6 @@
+/** 
+ * 캐릭터의 특정 기능을 담당하는 컴포넌트 (캐릭터 인공지능)
+ */
 cc.Class(
     {
         extends : cc.Component,

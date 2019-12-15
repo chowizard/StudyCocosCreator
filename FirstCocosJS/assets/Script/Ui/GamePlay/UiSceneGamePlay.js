@@ -1,3 +1,6 @@
+/** 
+ * 특정 장면의 UI들을 관리한다. (게임 플레이 장면)
+ */
 cc.Class(
     {
         extends : cc.Component,

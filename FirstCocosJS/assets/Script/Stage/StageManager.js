@@ -1,8 +1,11 @@
+/** 
+ * 스테이지의 관리자
+ */
 cc.Class(
 {
     extends: cc.Component,
 
-    properties :
+    properties:
     {
     },
 

@@ -2,6 +2,9 @@ import * as Defines from "../Core/Defines.js"
 
 const SceneBase = require("SceneBase");
 
+/**
+ * 게임 플레이 장면 객체
+ */
 cc.Class(
 {
     extends : SceneBase,

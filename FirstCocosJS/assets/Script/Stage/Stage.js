@@ -1,3 +1,6 @@
+/** 
+ * 특정한 하나의 스테이지의 내용들을 관리한다.
+ */
 cc.Class(
     {
         extends : cc.Component,

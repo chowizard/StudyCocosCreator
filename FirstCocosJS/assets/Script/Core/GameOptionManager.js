@@ -1,3 +1,6 @@
+/** 
+ * 게임의 옵션 관리자
+ */
 cc.Class(
 {
     extends: cc.Component,

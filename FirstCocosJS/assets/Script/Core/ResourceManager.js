@@ -1,3 +1,6 @@
+/** 
+ * 게임에서 사용하는 리소스 에셋 데이터들의 관리자
+ */
 cc.Class(
 {
     extends: cc.Component,

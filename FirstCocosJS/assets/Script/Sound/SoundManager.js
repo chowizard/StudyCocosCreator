@@ -1,3 +1,6 @@
+/** 
+ * 사운드 객체들의 관리자
+ */
 cc.Class(
 {
     extends: cc.Component,

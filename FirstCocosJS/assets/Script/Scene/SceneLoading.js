@@ -2,6 +2,9 @@ import * as Defines from "../Core/Defines.js"
 
 const SceneBase = require("SceneBase");
 
+/** 
+ * 특정 장면의 UI들을 관리한다. (인트로 장면)
+ */
 cc.Class(
 {
     extends : SceneBase,

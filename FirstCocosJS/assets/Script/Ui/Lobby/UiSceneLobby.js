@@ -1,3 +1,6 @@
+/** 
+ * 특정 장면의 UI들을 관리한다. (로비 장면)
+ */
 cc.Class(
     {
         extends : cc.Component,
