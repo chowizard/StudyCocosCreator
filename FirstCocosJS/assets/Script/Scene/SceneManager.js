@@ -1,11 +1,24 @@
-const GameManager = require("GameManager");
+//const GameManager = require("GameManager");
 
 /** 
  * 장면 관리자 객체
  */
 cc.Class(
 {
-    extends: cc.Component,
+    extends : cc.Component,
+
+
+    // statics : 
+    // {
+    //     get :
+    //     {
+    //         get : function()
+    //         {
+    //             return GameManager.singleton;
+    //         }
+    //     }
+    // },
+
 
     properties :
     {

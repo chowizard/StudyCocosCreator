@@ -1,9 +1,11 @@
+//const GameManager = require("GameManager");
+
 /** 
  * 스테이지의 관리자
  */
 cc.Class(
 {
-    extends: cc.Component,
+    extends : cc.Component,
 
     properties:
     {

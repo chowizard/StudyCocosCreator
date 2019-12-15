@@ -1,9 +1,11 @@
+//const GameManager = require("GameManager");
+
 /** 
  * 게임의 옵션 관리자
  */
 cc.Class(
 {
-    extends: cc.Component,
+    extends : cc.Component,
 
     properties :
     {
@@ -15,16 +17,16 @@ cc.Class(
 
     onLoad : function()
     {
-        console.log("GameOptionManager.onLoad()");
+        console.log("GameDataManager.onLoad()");
     },
 
     start : function()
     {
-        console.log("GameOptionManager.start()");
+        console.log("GameDataManager.start()");
     },
 
     onDestroy : function()
     {
-        console.log("GameOptionManager.onDestroy()");
+        console.log("GameDataManager.onDestroy()");
     }
 });

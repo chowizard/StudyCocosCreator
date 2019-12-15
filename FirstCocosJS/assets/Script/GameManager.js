@@ -16,150 +16,80 @@ const UiManager = require("UiManager");
  * 
  * - 게임 관리자는 게임 애플리케이션의 언제 어느 시점에든 전역적으로 접근할 수 있는 인터페이스를 제공하여야 한다.
  */
-export let GameManager = cc.Class(
+cc.Class(
 {
     extends : cc.Component,
+
+
+    // statics : 
+    // {
+    //     /** 싱글톤 인스턴스 */
+    //     _singleton : null,
+
+    //     /** 싱글톤 인스턴스 획득 */
+    //     singleton : function()
+    //     {
+    //         return this.statics._singleton;
+    //     }
+    // },
+
 
     properties :
     {
         /** 리소스 데이터 관리자 */
         resourceManager : 
         {
+            default : null,
             type : ResourceManager,
-            tooltip : "리소스 데이터 관리자",
-
-            get : function()
-            {
-                return this._resourceManager;
-            },
-
-            set : function(value)
-            {
-                if((value === undefined) || (value === null))
-                    console.error("GameManager.resourceManager : value is invalid!");
-
-                this._resourceManager = value;
-            }
+            tooltip : "리소스 데이터 관리자"
         }, 
 
         /** 게임 데이터 관리자 */
         gameDataManager : 
         {
+            default : null,
             type : GameDataManager,
-            tooltip : "게임 데이터 관리자",
-
-            get : function()
-            {
-                return this._gameDataManager;
-            },
-
-            set : function(value)
-            {
-                if((value === undefined) || (value === null))
-                    console.error("GameManager.gameDataManager : value is invalid!");
-
-                this._gameDataManager = value;
-            }
+            tooltip : "게임 데이터 관리자"
         },
 
         /** 게임 옵션 관리자 */
         gameOptionManager : 
         {
+            default : null,
             type : GameOptionManager,
-            tooltip : "게임 옵션 관리자",
-
-            get : function()
-            {
-                return this._gameOptionManager;
-            },
-
-            set : function(value)
-            {
-                if((value === undefined) || (value === null))
-                    console.error("GameManager.gameOptionManager : value is invalid!");
-
-                this._gameOptionManager = value;
-            }
-        },
+            tooltip : "게임 옵션 관리자"
+        }, 
 
         /** 장면 관리자 */
         sceneManager :
         {
+            default : null,
             type : SceneManager,
-            tooltip : "장면 관리자",
-
-            get : function()
-            {
-                return this._sceneManager;
-            },
-
-            set : function(value)
-            {
-                if((value === undefined) || (value === null))
-                    console.error("GameManager.sceneManager : value is invalid!");
-
-                this._sceneManager = value;
-            }
+            tooltip : "장면 관리자"
         },
 
         /** 스테이지 관리자 */
         stageManager : 
         {
+            default : null,
             type : StageManager,
-            tooltip : "스테이지 관리자",
-
-            get : function()
-            {
-                return this._stageManager;
-            },
-
-            set : function(value)
-            {
-                if((value === undefined) || (value === null))
-                    console.error("GameManager.StageManager : value is invalid!");
-
-                this._stageManager = value;
-            }
+            tooltip : "스테이지 관리자"
         },
 
         /** 사운드 객체 관리자 */
         soundManager : 
         {
+            default : null,
             type : SoundManager,
-            tooltip : "사운드 객체 관리자",
-
-            get : function()
-            {
-                return this._soundManager;
-            },
-
-            set : function(value)
-            {
-                if((value === undefined) || (value === null))
-                    console.error("GameManager.SoundManager : value is invalid!");
-
-                this._soundManager = value;
-            }
+            tooltip : "사운드 객체 관리자"
         },
 
         /** UI 관리자 */
         uiManager : 
         {
+            default : null,
             type : UiManager,
-            tooltip : "UI 관리자",
-
-            get : function()
-            {
-                return this._uiManager;
-            },
-
-            set : function(value)
-            {
-                if((value === undefined) || (value === null))
-                    console.error("GameManager.UiManager : value is invalid!");
-
-                this._uiManager = value;
-            }
+            tooltip : "UI 관리자"
         }
     },
 
@@ -173,6 +103,8 @@ export let GameManager = cc.Class(
     onLoad : function()
     {
         console.log("GameManager.onLoad()");
+
+        this.statics._singleton = this;
     },
 
     /** 

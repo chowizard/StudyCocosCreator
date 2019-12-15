@@ -656,6 +656,27 @@
       "__id__": 2
     },
     "_enabled": true,
+    "resourceManager": {
+      "__id__": 4
+    },
+    "gameDataManager": {
+      "__id__": 6
+    },
+    "gameOptionManager": {
+      "__id__": 8
+    },
+    "sceneManager": {
+      "__id__": 10
+    },
+    "stageManager": {
+      "__id__": 12
+    },
+    "soundManager": {
+      "__id__": 14
+    },
+    "uiManager": {
+      "__id__": 16
+    },
     "_id": "d0rfq/FQJFuY4c/VzvQW9N"
   }
 ]

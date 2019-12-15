@@ -1,9 +1,11 @@
+//const GameManager = require("GameManager");
+
 /** 
  * 게임 스크립트 데이터로부터 불러오는 데이터 객체들의 관리자
  */
 cc.Class(
 {
-    extends: cc.Component,
+    extends : cc.Component,
 
     properties :
     {
