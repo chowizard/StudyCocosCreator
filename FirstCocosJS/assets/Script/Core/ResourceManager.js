@@ -1,6 +1,5 @@
 /** @module ResourceManager */
 
-//import GameManager from "../GameManager";
 /** @type {GameManager} */
 let GameManager;
 
@@ -16,26 +15,33 @@ const ResourceManager = cc.Class(
 
     statics : 
     {
+        /**
+         * 인스턴스 획득
+         * @static
+         * @public
+         * @returns {ResourceManager}
+         */
         get : function()
         {
-            //GameManager = require("../GameManager").default;
+            ResourceManager.importModules();
             return GameManager.singleton().resourceManager;
+        },
+
+        /**
+         * 모듈들을 불러온다.
+         * @static
+         * @private
+         * @return {void}
+         */
+        importModules : function()
+        {
+            cc.log("ResourceManager.importModules()");
+
+            if(GameManager === undefined)
+                GameManager = require("../GameManager");
         }
     },
 
-    // statics : () => (
-    // {
-    //     GameManager :
-    //     {
-    //         default : null,
-    //         type : require("../GameManager")
-    //     },
-
-    //     get : function()
-    //     {
-    //         return GameManager.singleton.resourceManager;
-    //     }
-    // }),
 
     properties :
     {
@@ -46,24 +52,6 @@ const ResourceManager = cc.Class(
         }
     },
 
-    // properties : () => 
-    // {
-    //     return {
-    //         GameManager :
-    //         {
-    //             default : null,
-    //             type : require("GameManager")
-    //         }
-    //     };
-    // },
-
-    // properties: () => ({    // <- brackets "(" on the right side of the arrows can not be omitted
-    //     game: {
-    //         default: null,
-    //         type: require("Game")
-    //     }
-    // }),
-
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -71,13 +59,15 @@ const ResourceManager = cc.Class(
     onLoad : function()
     {
         console.log("ResourceManager.onLoad()");
+
+        ResourceManager.importModules();
     },
 
     start : function()
     {
         console.log("ResourceManager.start()");
 
-        console.log("Test Value = " + GameManager.singleton.testValue);
+        console.log("Test Value = " + GameManager.singleton().testValue);
         //console.log("Test Value = " + GameManager._singleton.testValue);
     },
 
@@ -88,5 +78,3 @@ const ResourceManager = cc.Class(
 });
 
 export default ResourceManager;
-
-GameManager = require("../GameManager");

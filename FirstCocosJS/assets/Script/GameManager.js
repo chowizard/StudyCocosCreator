@@ -1,21 +1,5 @@
 /** @module GameManager */
 
-/** @type {ResourceManager} */
-let ResourceManager;
-/** @type {GameDataManager} */
-let GameDataManager;
-/** @type {GameOptionManager} */
-let GameOptionManager;
-/** @type {SceneManager} */
-let SceneManager;
-/** @type {StageManager} */
-let StageManager;
-/** @type {SoundManager} */
-let SoundManager;
-/** @type {UiManager} */
-let UiManager;
-
-
 /** 
  * 게임 전체의 관리자 객체
  * 
@@ -35,12 +19,20 @@ const GameManager = cc.Class(
 
     statics : 
     {
-        /** 싱글톤 인스턴스 
+        /**
+         * 싱글톤 인스턴스 
+         * @static
+         * @private
          * @type {GameManager} 
          */
         _singleton : null,
 
-        /** 싱글톤 인스턴스 획득 */
+        /**
+         * 싱글톤 인스턴스 획득
+         * @static
+         * @public
+         * @returns GameManager
+         */
         singleton : function()
         {
             return GameManager._singleton;
@@ -50,59 +42,87 @@ const GameManager = cc.Class(
 
     properties : 
     {
-        /** 리소스 데이터 관리자 */
+        /** 
+         * 리소스 데이터 관리자
+         * @public
+         * @type {ResourceManager}
+         */
         resourceManager : 
         {
             default : null,
-            type : ResourceManager,
+            type : require("./Core/ResourceManager"),
             tooltip : "리소스 데이터 관리자"
         }, 
 
-        /** 게임 데이터 관리자 */
+        /**
+         * 게임 데이터 관리자
+         * @public
+         * @type {GameDataManager}
+         */
         gameDataManager : 
         {
             default : null,
-            type : GameDataManager,
+            type : require("./GameData/GameDataManager"),
             tooltip : "게임 데이터 관리자"
         },
 
-        /** 게임 옵션 관리자 */
+        /**
+         * 게임 옵션 관리자
+         * @public
+         * @type {GameOptionManager}
+         */
         gameOptionManager : 
         {
             default : null,
-            type : GameOptionManager,
+            type : require("./Core/GameOptionManager"),
             tooltip : "게임 옵션 관리자"
         }, 
 
-        /** 장면 관리자 */
+        /**
+         * 장면 관리자
+         * @public
+         * @type {SceneManager}
+         */
         sceneManager :
         {
             default : null,
-            type : SceneManager,
+            type : require("./Scene/SceneManager"),
             tooltip : "장면 관리자"
         },
 
-        /** 스테이지 관리자 */
+        /**
+         * 스테이지 관리자
+         * @public
+         * @type {StageManager}
+         */
         stageManager : 
         {
             default : null,
-            type : StageManager,
+            type : require("./Stage/StageManager"),
             tooltip : "스테이지 관리자"
         },
 
-        /** 사운드 객체 관리자 */
+        /**
+         * 사운드 객체 관리자
+         * @public
+         * @type {SoundManager}
+         */
         soundManager : 
         {
             default : null,
-            type : SoundManager,
+            type : require("./Sound/SoundManager"),
             tooltip : "사운드 객체 관리자"
         },
 
-        /** UI 관리자 */
+        /**
+         * UI 관리자
+         * @public
+         * @type {UiManager}
+         */
         uiManager : 
         {
             default : null,
-            type : UiManager,
+            type : require("./Ui/UiManager"),
             tooltip : "UI 관리자"
         },
 
@@ -149,24 +169,4 @@ const GameManager = cc.Class(
     }
 });
 
-// class AAA {
-//     constructor() {
-//         /** @type {number} */
-//         this.aaa;
-
-//         /** @type {AAA}*/ this.bbb;
-//     }
-// }
-
-// let a = new AAA();
-// a.bbb
-
 export default GameManager;
-
-ResourceManager = require("./Core/ResourceManager");
-GameDataManager = require("./GameData/GameDataManager");
-GameOptionManager = require("./Core/GameOptionManager");
-SceneManager = require("./Scene/SceneManager");
-StageManager = require("./Stage/StageManager");
-SoundManager = require("./Sound/SoundManager");
-UiManager = require("./Ui/UiManager");

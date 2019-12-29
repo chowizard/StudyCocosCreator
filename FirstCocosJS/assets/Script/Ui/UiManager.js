@@ -1,12 +1,47 @@
-//const GameManager = require("GameManager");
+/** @module UiManager */
+
+/** @type {GameManager} */
+let GameManager;
 
 /** 
  * 전체 사용자 인터페이스(UI)들의 관리자
- * @type {UiManager}
+ * 
+ * @class
  */
 const UiManager = cc.Class(
 {
     extends : cc.Component,
+
+
+    statics : 
+    {
+        /**
+         * 인스턴스 획득
+         * @static
+         * @public
+         * @returns {ResourceManager}
+         */
+        get : function()
+        {
+            UiManager.importModules();
+            return GameManager.singleton().uiManager;
+        },
+
+        /**
+         * 모듈들을 불러온다.
+         * @static
+         * @private
+         * @return {void}
+         */
+        importModules : function()
+        {
+            cc.log("ResourceManager.importModules()");
+
+            if(GameManager === undefined)
+                GameManager = require("../GameManager");
+        }
+    },
+
 
     properties :
     {
@@ -19,6 +54,9 @@ const UiManager = cc.Class(
     onLoad : function()
     {
         console.log("UiManager.onLoad()");
+
+        if(GameManager === undefined)
+            GameManager = require("../GameManager");
     },
 
     start : function()
@@ -33,3 +71,5 @@ const UiManager = cc.Class(
 });
 
 export default UiManager;
+
+//GameManager = require("../GameManager");

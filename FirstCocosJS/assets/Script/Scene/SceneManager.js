@@ -1,24 +1,46 @@
-//const GameManager = require("GameManager");
+/** @module SceneManager */
+
+/** @type {GameManager} */
+let GameManager;
 
 /** 
- * 장면 관리자 객체
- * @type {SceneManager}
+ * 장면 관리자
+ * 
+ * @class
  */
 const SceneManager = cc.Class(
 {
     extends : cc.Component,
 
 
-    // statics : 
-    // {
-    //     get :
-    //     {
-    //         get : function()
-    //         {
-    //             return GameManager.singleton;
-    //         }
-    //     }
-    // },
+    statics : 
+    {
+        /**
+         * 인스턴스 획득
+         * @static
+         * @public
+         * @returns {ResourceManager}
+         */
+        get : function()
+        {
+            SceneManager.importModules();
+            return GameManager.singleton().sceneManager;
+        },
+
+        /**
+         * 모듈들을 불러온다.
+         * @static
+         * @private
+         * @return {void}
+         */
+        importModules : function()
+        {
+            cc.log("ResourceManager.importModules()");
+
+            if(GameManager === undefined)
+                GameManager = require("../GameManager");
+        }
+    },
 
 
     properties :
@@ -32,6 +54,9 @@ const SceneManager = cc.Class(
     onLoad : function()
     {
         console.log("SceneManager.onLoad()");
+
+        if(GameManager === undefined)
+            GameManager = require("../GameManager");
     },
 
     start : function()
@@ -46,3 +71,5 @@ const SceneManager = cc.Class(
 });
 
 export default SceneManager;
+
+//GameManager = require("../GameManager");
