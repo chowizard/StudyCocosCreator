@@ -2,8 +2,9 @@
 
 /** 
  * 스테이지의 관리자
+ * @type {StageManager}
  */
-cc.Class(
+const StageManager = cc.Class(
 {
     extends : cc.Component,
 
@@ -30,3 +31,5 @@ cc.Class(
         console.log("StageManager.onDestroy()");
     }
 });
+
+export default StageManager;

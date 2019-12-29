@@ -2,8 +2,9 @@
 
 /** 
  * 사운드 객체들의 관리자
+ * @type {SoundManager}
  */
-cc.Class(
+const SoundManager = cc.Class(
 {
     extends : cc.Component,
 
@@ -30,3 +31,5 @@ cc.Class(
         console.log("SoundManager.onDestroy()");
     }
 });
+
+export default SoundManager;

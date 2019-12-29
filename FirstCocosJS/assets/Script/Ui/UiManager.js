@@ -2,8 +2,9 @@
 
 /** 
  * 전체 사용자 인터페이스(UI)들의 관리자
+ * @type {UiManager}
  */
-cc.Class(
+const UiManager = cc.Class(
 {
     extends : cc.Component,
 
@@ -30,3 +31,5 @@ cc.Class(
         console.log("UiManager.onDestroy()");
     }
 });
+
+export default UiManager;

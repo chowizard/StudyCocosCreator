@@ -2,8 +2,9 @@
 
 /** 
  * 장면 관리자 객체
+ * @type {SceneManager}
  */
-cc.Class(
+const SceneManager = cc.Class(
 {
     extends : cc.Component,
 
@@ -43,3 +44,5 @@ cc.Class(
         console.log("SceneManager.onDestroy()");
     }
 });
+
+export default SceneManager;

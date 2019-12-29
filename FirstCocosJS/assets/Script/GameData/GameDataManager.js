@@ -2,8 +2,9 @@
 
 /** 
  * 게임 스크립트 데이터로부터 불러오는 데이터 객체들의 관리자
+ * @type {GameDataManager}
  */
-cc.Class(
+const GameDataManager = cc.Class(
 {
     extends : cc.Component,
 
@@ -30,3 +31,5 @@ cc.Class(
         console.log("GameDataManager.onDestroy()");
     }
 });
+
+export default GameDataManager;

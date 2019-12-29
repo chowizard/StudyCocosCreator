@@ -2,10 +2,22 @@
 
 /** 
  * 게임의 옵션 관리자
+ * @type {GameOptionManager}
  */
-cc.Class(
+const GameOptionManager = cc.Class(
 {
     extends : cc.Component,
+
+
+    // statics : () => (
+    // {
+    //     GameManager :
+    //     {
+    //         default : null,
+    //         type : require("../GameManager")
+    //     }
+    // }),
+
 
     properties :
     {
@@ -30,3 +42,5 @@ cc.Class(
         console.log("GameDataManager.onDestroy()");
     }
 });
+
+export default GameOptionManager;
