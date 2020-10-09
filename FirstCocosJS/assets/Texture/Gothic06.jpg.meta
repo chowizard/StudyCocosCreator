@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.5",
   "uuid": "6bcf2d8a-735d-43e5-b046-1f39fdb9affc",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 1600,
+  "height": 1200,
   "platformSettings": {},
   "subMetas": {
     "Gothic06": {

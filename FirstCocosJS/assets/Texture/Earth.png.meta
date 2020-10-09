@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.5",
   "uuid": "cc896aa6-8c92-43ff-9484-5d9d9df74bd8",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 971,
+  "height": 1024,
   "platformSettings": {},
   "subMetas": {
     "Earth": {
